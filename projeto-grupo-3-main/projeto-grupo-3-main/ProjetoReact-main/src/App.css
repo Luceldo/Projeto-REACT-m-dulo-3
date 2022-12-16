@@ -1,0 +1,17 @@
+.App {
+    display: grid;
+    grid-template-rows: 10vh minmax(83vh, auto) 7vh;
+    grid-template-areas: "header" "content" "footer";
+}
+
+.App header {
+    grid-area: header;
+}
+
+.main {
+    grid-area: content;
+}
+
+.App footer {
+    grid-area: footer;
+}

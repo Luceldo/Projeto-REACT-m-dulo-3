@@ -1,0 +1,180 @@
+:root {
+  --header-footer-bg: #1c1c1c;
+  --white: #ededed;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Centralizar texto h1 */
+.centralizarh1 {
+  text-align: center;
+}
+
+/* Sobre nós */
+.sobrenos {
+  text-align: center;
+  margin: 50px;
+  font-size: 1.5rem;
+}
+
+/* Nosso Time */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.marketing h2 {
+  font-weight: 400px;
+  width: 100%;
+  margin-left: 200px;
+}
+.marketing .col-lg-4 p {
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+}
+
+.foto-contato {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin-top: 200px;
+  margin-left: 300px;
+}
+
+#texto-time {
+  color: black;
+  width: 100%;
+  margin-left: 200px;
+}
+
+/* Página de erro */
+.nopagelayout {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.imgerror {
+  width: 100%;
+}
+
+/* Botões */
+.botaovoltar {
+  width: 120px;
+  margin: 5px;
+  padding: 5px 20px;
+  font-size: 1.2rem;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  background-color: #1737c7;
+  border: 2px solid black;
+}
+
+.botaosubmit {
+  width: 120px;
+  margin: 5px;
+  padding: 5px 20px;
+  font-size: 1.2rem;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  background-color: #1737c7;
+  border: 2px solid black;
+}
+
+.botaobuscar {
+  width: 120px;
+  margin: 5px;
+  margin-left: 650px;
+  padding: 5px 20px;
+  font-size: 1.2rem;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  background-color: #1737c7;
+  border: 2px solid black;
+}
+
+.botoeseditdelet {
+  width: 120px;
+  margin: 5px;
+  padding: 5px 20px;
+  font-size: 1.2rem;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  background-color: #1737c7;
+  border: 2px solid black;
+}
+
+.botaomanter {
+  width: 120px;
+  margin: 5px;
+  padding: 5px 20px;
+  font-size: 1.2rem;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  background-color: #1737c7;
+  border: 2px solid black;
+}
+
+.botaodeletremover {
+  width: 120px;
+  margin: 5px;
+  padding: 5px 20px;
+  font-size: 1.2rem;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  background-color: #1737c7;
+  border: 2px solid black;
+}
+
+/* Página de hotéis */
+.backgroundtotal{
+  background-color: #1c1c1c;
+}
+.containerprincipa{
+width: 100%;
+}
+
+.imagemdestaquehoteis{
+  width: 800px;
+  margin-left: 250px;
+  background-position: center center; 
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: grid;
+  place-items: center;
+}
+
+.elementocaixatitulo1 {
+  text-align: center;
+  color: white;
+}
+
+.títuloheader{
+  text-align: center;
+}
+
+.dadosjson {
+    color: #ededed;
+    font-size: 1.5rem;
+}
+
+
+
+@keyframes zoomIn {
+  from {
+    transform: scale(0.3);
+  }
+  to {
+    transform: scale(1);
+  }
+}

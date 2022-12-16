@@ -1,0 +1,16 @@
+/*Carregamento*/
+.cloader{
+    animation: rodando 1s infinite;
+    width: 50px;
+    height:50px;
+    border: 6px solid #e5e5e5;
+    border-top-color:#070068;
+    border-radius: 50%;
+    display:flex;
+    justify-items: center;
+}
+@keyframes rodando{
+    to {
+        transform: rotate(1turn)
+    }
+}
